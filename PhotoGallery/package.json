@@ -37,7 +37,7 @@
     "ios-open": "npx cap open ios",
     "android-open": "npx cap open android",
     "electron-open": "npx cap open electron",
-    "deploy": "gh-pages -d PhotoGallery"
+    "deploy": "gh-pages -d ./PhotoGallery"
   },
   "eslintConfig": {
     "extends": "react-app"

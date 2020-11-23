@@ -29,7 +29,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d photoGallery"
+    "ios": "npx cap add ios",
+    "android": "npx cap add android",
+    "electron": "npx cap add electron",
+    "update": "npx cap sync",
+    "update-build": "react-scripts build && npx cap sync",
+    "ios-open": "npx cap open ios",
+    "android-open": "npx cap open android",
+    "electron-open": "npx cap open electron",
+    "deploy": "gh-pages -d PhotoGallery"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,7 +61,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robster619007/photoGallery.git"
+    "url": "git+https://github.com/robster619007/PhotoGallery.git"
   },
   "keywords": [],
   "author": "",
